@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  /* justify-content: center; */
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  font-size: 40px;
+  color: black;
+  width: 100%;
+  /* font-family: Copperplate, cursive; */
+  text-shadow: 3px 3px 6px #facc15;
+  background: whitesmoke;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.inputBox {
+  width: 30%;
+  height: 50px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.inputBox:hover {
+  border: 3px solid #facc15;
+}
+.meaning {
+  margin-bottom: 2rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+  font-family: Copperplate, cursive;
+  font-size: 35px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 90px;
+}
+
+.heading {
+  font-size: 25px;
+  color: black;
+  font-family: Copperplate, cursive;
+}
+
+.emojiDisplay {
+  font-size: 35px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.emojiDisplay:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+.footer {
+  width: 100%;
+  box-shadow: 2px 2px 7px #facc15;
+  height: 80px;
+  /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+}
+
+.devName {
+  font-size: 18px;
+  color: #facc15;
+  font-weight: 500;
+}
+
+.devName2 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.sBtn {
+  color: #facc15;
+  font-size: 15px;
+  padding: 1rem 1rem;
+}
+
+.sBtn:hover {
+  text-shadow: 1px 1px 8px white;
+  color: white;
+}
